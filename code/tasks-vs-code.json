@@ -4,7 +4,6 @@
 //      sudo apt-get update && sudo apt-get install jq
 // Location: 
 //      <project-root>/.vscode/extensions.json
-// For "code-server" use: `code-server --install-extension` instead
 
 {
   "version": "2.0.0",
