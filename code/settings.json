@@ -1,0 +1,41 @@
+// This file contains user settings for Visual Studio Code.
+// Location: 
+//      Web:    ~/.local/share/code-server/User/settings.json
+//      MacOS:  ~/Library/Application Support/Code/User/settings.json
+
+{
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.integrated.fontFamily",
+        "python.analysis.typeCheckingMode"
+    ],
+    "redhat.telemetry.enabled": false,
+    "python.analysis.diagnosticSeverityOverrides": {},
+    "python.analysis.typeCheckingMode": "standard",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "onFocusChange",
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "explorer.compactFolders": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke":"#ea553b"
+    },
+    "editor.mouseWheelZoom": true,
+    "pylint.severity": {
+        "C0116": "Hint", // Function is missing a docstring
+        "C0301": "Hint", // Line too long
+        "C0115": "Hint"  // Class is missing a docstring
+    },
+    "mypy-type-checker.severity": {
+        "no-untyped-def": "Hint" // Function is missing type annotations
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "git.allowNoVerifyCommit": true,
+    "git.autorefresh": false,
+    "git.useEditorAsCommitInput": false,
+    "git.pullBeforeCheckout": true,
+    "git.autoStash": true,
+    "git.replaceTagsWhenPull": true,
+    "git.enableSmartCommit": true
+}

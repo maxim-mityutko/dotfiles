@@ -1,0 +1,23 @@
+// This file is used to install all recommended extensions for the 
+// workspace automatically when the folder is opened in VS Code.
+// Pre-requisites (if not already installed):
+//      sudo apt-get update && sudo apt-get install jq
+// Location: 
+//      <project-root>/.vscode/extensions.json
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install All Recommended Extensions",
+      "type": "shell",      
+      "command": "jq -r '.recommendations[]' .vscode/extensions.json | xargs -L 1 code --install-extension",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent"
+      }
+    }
+  ]
+}
