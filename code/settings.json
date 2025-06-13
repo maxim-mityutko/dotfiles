@@ -37,5 +37,7 @@
     "git.pullBeforeCheckout": true,
     "git.autoStash": true,
     "git.replaceTagsWhenPull": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh"
 }
