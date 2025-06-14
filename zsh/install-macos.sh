@@ -1,3 +1,4 @@
+#!/bin/sh
 # Install preferred terminal and shell
 brew install iterm2 zsh
 

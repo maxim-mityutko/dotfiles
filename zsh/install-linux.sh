@@ -1,3 +1,4 @@
+#!/bin/sh
 # Install preferred terminal and shell
 sudo apt-get update && sudo apt-get install zsh
 
