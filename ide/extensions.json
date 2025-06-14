@@ -1,25 +1,15 @@
-// This file contains the extension recommendations for the workspace.
-// Use @recommended in extension search to find extensions included in this file.
-// Location: 
-//      <project-root>/.vscode/extensions.json
-
 {
 	"recommendations": [
-		
-		// CoPilot
 		"github.copilot",
 		"github.copilot-chat",
 
-		// Quality of Life
 		"alefragnani.project-manager",
 		"gruntfuggly.todo-tree",
 		"fill-labs.dependi",
 		
-		// Remote Repositories
 		"github.remotehub",
 		"ms-vscode.remote-repositories",
 
-		// Python
 		"ms-python.debugpy",
 		"ms-python.mypy-type-checker",
 		"ms-python.pylint",
@@ -29,7 +19,6 @@
 		"rodolphebarbanneau.python-docstring-highlighter",
 		"charliermarsh.ruff",
 
-		// Miscellaneous Formats
 		"ms-vscode.makefile-tools",
 		"redhat.vscode-yaml",
 		"tamasfe.even-better-toml",
@@ -37,14 +26,11 @@
 		"darkriszty.markdown-table-prettify",
 		"mechatroner.rainbow-csv",
 
-		// Optional
-		// "github.vscode-github-actions",
+		"github.vscode-github-actions",
 
-		// Docker
-		// "docker.docker",
-		// "ms-azuretools.vscode-containers",
-		// "ms-azuretools.vscode-docker",
-
+		"docker.docker",
+		"ms-azuretools.vscode-containers",
+		"ms-azuretools.vscode-docker"
 	],
 	"unwantedRecommendations": [
 	]

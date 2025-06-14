@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install All Recommended Extensions",
+      "type": "shell",      
+      "command": "cmd=$(command -v code || command -v code-server); if [ -z \"$cmd\" ]; then echo 'Neither code nor code-server found'; exit 1; fi; jq -r '.recommendations[]' .vscode/extensions.json | xargs -L 1 \"$cmd\" --install-extension",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent"
+      }
+    }
+  ]
+}

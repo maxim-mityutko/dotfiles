@@ -1,8 +1,3 @@
-// This file contains user settings for Visual Studio Code.
-// Location: 
-//      Web:    ~/.local/share/code-server/User/settings.json
-//      MacOS:  ~/Library/Application Support/Code/User/settings.json
-
 {
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "workbench.settings.applyToAllProfiles": [
