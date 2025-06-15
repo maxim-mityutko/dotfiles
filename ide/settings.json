@@ -33,6 +33,8 @@
     "git.autoStash": true,
     "git.replaceTagsWhenPull": true,
     "git.enableSmartCommit": true,
+    "git.autofetch": false,
+    "git.confirmSync": false,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.osx": "zsh"
 }
