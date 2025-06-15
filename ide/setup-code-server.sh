@@ -2,7 +2,7 @@
 # This script update the Code Server environment with Python, PyEnv and related tools.
 
 sudo apt update 
-sudo apt install build-essential pipx make -y
+sudo apt install build-essential pipx make jq -y
 sudo zlib1g zlib1g-dev libbz2-dev libssl-dev libffi-dev liblzma-dev libsqlite3-dev libreadline-dev -y
 
 # Install PyEnv
