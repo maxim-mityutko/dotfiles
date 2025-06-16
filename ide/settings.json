@@ -5,7 +5,6 @@
         "python.analysis.typeCheckingMode"
     ],
     "redhat.telemetry.enabled": false,
-    "python.analysis.diagnosticSeverityOverrides": {},
     "python.analysis.typeCheckingMode": "standard",
     "security.workspace.trust.untrustedFiles": "open",
     "files.autoSave": "onFocusChange",
@@ -17,14 +16,6 @@
         "tree.indentGuidesStroke":"#ea553b"
     },
     "editor.mouseWheelZoom": true,
-    "pylint.severity": {
-        "C0116": "Hint", // Function is missing a docstring
-        "C0301": "Hint", // Line too long
-        "C0115": "Hint"  // Class is missing a docstring
-    },
-    "mypy-type-checker.severity": {
-        "no-untyped-def": "Hint" // Function is missing type annotations
-    },
     "workbench.colorTheme": "Default Dark+",
     "git.allowNoVerifyCommit": true,
     "git.autorefresh": false,
@@ -36,5 +27,21 @@
     "git.autofetch": false,
     "git.confirmSync": false,
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.defaultProfile.osx": "zsh"
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "pylint.severity": {
+        "C0116": "Hint", // Function is missing a docstring
+        "C0301": "Hint", // Line too long
+        "C0115": "Hint",  // Class is missing a docstring
+        "W0212": "Hint"  // Protected member access
+    },
+    "mypy-type-checker.severity": {
+        "no-untyped-def": "Hint" // Function is missing type annotations
+    },
+    "mypy-type-checker.args": [
+        "[\"--disallow-untyped-defs=false\"]"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportPrivateImportUsage": "information", // Disable warning for private imports
+        "reportArgumentType": "information" // Change argument type report to information level
+    }
 }
