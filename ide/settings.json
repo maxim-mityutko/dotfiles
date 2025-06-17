@@ -32,7 +32,8 @@
         "C0116": "Hint", // Function is missing a docstring
         "C0301": "Hint", // Line too long
         "C0115": "Hint",  // Class is missing a docstring
-        "W0212": "Hint"  // Protected member access
+        "W0212": "Hint",  // Protected member access
+        "C0303": "Hint" // Trailing whitespace
     },
     "mypy-type-checker.severity": {
         "no-untyped-def": "Hint" // Function is missing type annotations
@@ -42,6 +43,9 @@
     ],
     "python.analysis.diagnosticSeverityOverrides": {
         "reportPrivateImportUsage": "information", // Disable warning for private imports
-        "reportArgumentType": "information" // Change argument type report to information level
+        "reportArgumentType": "none" // Change argument type report to information level
+    },
+    "files.exclude": {
+        "**/__pycache__": true
     }
 }
