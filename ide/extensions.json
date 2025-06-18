@@ -18,6 +18,7 @@
 		"magicstack.magicpython",
 		"rodolphebarbanneau.python-docstring-highlighter",
 		"charliermarsh.ruff",
+		"ptweir.python-string-sql",
 
 		"ms-vscode.makefile-tools",
 		"redhat.vscode-yaml",
