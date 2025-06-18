@@ -33,7 +33,8 @@
         "C0301": "Hint", // Line too long
         "C0115": "Hint",  // Class is missing a docstring
         "W0212": "Hint",  // Protected member access
-        "C0303": "Hint" // Trailing whitespace
+        "C0303": "Hint", // Trailing whitespace
+        "W0707": "Hint" // Explicitly re-raise using the 'from' keyword
     },
     "mypy-type-checker.severity": {
         "no-untyped-def": "Hint" // Function is missing type annotations
