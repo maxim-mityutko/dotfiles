@@ -16,7 +16,7 @@
         "tree.indentGuidesStroke":"#ea553b"
     },
     "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "One Monokai",
     "git.allowNoVerifyCommit": true,
     "git.autorefresh": false,
     "git.useEditorAsCommitInput": false,
@@ -51,5 +51,10 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports.ruff": "always"
     },
-    "ruff.organizeImports": true
+    "ruff.organizeImports": true,
+    "testing.alwaysRevealTestOnStateChange": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.saturation": 0.9
 }

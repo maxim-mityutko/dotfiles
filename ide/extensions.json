@@ -30,7 +30,10 @@
 
 		"docker.docker",
 		"ms-azuretools.vscode-containers",
-		"ms-azuretools.vscode-docker"
+		"ms-azuretools.vscode-docker",
+
+		"pkief.material-icon-theme",
+		"azemoh.one-monokai"
 	],
 	"unwantedRecommendations": [
 	]
