@@ -16,7 +16,7 @@
         "tree.indentGuidesStroke":"#ea553b"
     },
     "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "One Monokai",
+    "workbench.colorTheme": "One Monokai",  // Alternative: Two Monokai Darker (khan.two-monokai)
     "git.allowNoVerifyCommit": true,
     "git.autorefresh": false,
     "git.useEditorAsCommitInput": false,
