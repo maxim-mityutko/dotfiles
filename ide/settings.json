@@ -58,6 +58,7 @@
     "material-icon-theme.folders.theme": "classic",
     "material-icon-theme.hidesExplorerArrows": true,
     "material-icon-theme.saturation": 0.9,
+    "window.menuBarVisibility": "classic",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off"
 }
