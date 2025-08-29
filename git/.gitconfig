@@ -44,3 +44,5 @@
         autoSquash = true
         autoStash = true
         updateRefs = true
+[checkout]
+     defaultRemote = origin
