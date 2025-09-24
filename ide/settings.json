@@ -60,5 +60,7 @@
     "material-icon-theme.saturation": 0.9,
     "window.menuBarVisibility": "classic",
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.accessibilitySupport": "off"
+    "editor.accessibilitySupport": "off",
+    "pythonTestExplorer.testFramework": "pytest",
+    "pythonTestExplorer.testplanUseLegacyDiscovery": false
 }
