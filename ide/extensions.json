@@ -37,7 +37,9 @@
 		"ms-azuretools.vscode-docker",
 
 		"pkief.material-icon-theme",
-		"azemoh.one-monokai"
+		"azemoh.one-monokai",
+
+		"continue.continue"
 	],
 	"unwantedRecommendations": [
 	]

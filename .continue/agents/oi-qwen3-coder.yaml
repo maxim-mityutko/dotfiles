@@ -1,0 +1,22 @@
+name: OI Coding Assistant
+version: 1.0.0
+schema: v1
+models:
+  - name: LLama3
+    provider: openai
+    model: qwen3-coder:480b
+    env:
+      useLegacyCompletionsEndpoint: false
+    apiBase: https://oi.brhd.io/api
+    apiKey: <open-webui-key>
+    roles:
+      - chat
+      - edit
+context:
+  - provider: code
+  - provider: docs
+  - provider: diff
+  - provider: terminal
+  - provider: problems
+  - provider: folder
+  - provider: codebase

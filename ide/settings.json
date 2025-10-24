@@ -62,5 +62,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.accessibilitySupport": "off",
     "pythonTestExplorer.testFramework": "pytest",
-    "pythonTestExplorer.testplanUseLegacyDiscovery": false
+    "pythonTestExplorer.testplanUseLegacyDiscovery": false,
+    "continue.telemetryEnabled": false
 }
