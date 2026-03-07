@@ -1,0 +1,5 @@
+prefix_rule(pattern=["gh", "pr", ["view", "checkout", "list"]], decision="allow")
+
+prefix_rule(pattern=["git", ["status", "diff", "log"]], decision="allow")
+prefix_rule(pattern=["git", ["commit"]], decision="prompt")
+prefix_rule(pattern=["git", "push", ["-f", "--force", "--force-with-lease", "--force-if-includes"]], decision="forbidden")
